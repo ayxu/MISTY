@@ -1,0 +1,37 @@
+select * from ScalaHU_1025..SY249100 where SY24001 = 'I0' and SY24002 = '01' and SY24003 = 'IFRS15'
+delete ScalaHU_1025..SY249100 where SY24001 = 'I0' and SY24002 = '01' and SY24003 = 'IFRS15'
+
+insert into ScalaHU_1025..SY249100(SY24001, SY24002, SY24003, SY24004, SY24005, SY24006) values ('I0', '01', 'IFRS15', '0', '2', '0')
+insert into ScalaLV_1085..SY24C100(SY24001, SY24002, SY24003, SY24004, SY24005, SY24006) values ('I0', '01', 'IFRS15', '0', '2', '0')
+insert into ScalaFI_1203..SY24G100(SY24001, SY24002, SY24003, SY24004, SY24005, SY24006) values ('I0', '01', 'IFRS15', '0', '2', '0')
+insert into ScalaRS_1758..SY24M100(SY24001, SY24002, SY24003, SY24004, SY24005, SY24006) values ('I0', '01', 'IFRS15', '0', '2', '0')
+insert into ScalaNO_1786..SY24K100(SY24001, SY24002, SY24003, SY24004, SY24005, SY24006) values ('I0', '01', 'IFRS15', '0', '2', '0')
+insert into ScalaSE_1212..SY24J100(SY24001, SY24002, SY24003, SY24004, SY24005, SY24006) values ('I0', '01', 'IFRS15', '0', '2', '0')
+insert into ScalaDK_1785..SY24L100(SY24001, SY24002, SY24003, SY24004, SY24005, SY24006) values ('I0', '01', 'IFRS15', '0', '2', '0')
+insert into ScalaHK_1721..SY24T100(SY24001, SY24002, SY24003, SY24004, SY24005, SY24006) values ('I0', '01', 'IFRS15', '0', '2', '0')
+insert into ScalaAU_1923..SY24X100(SY24001, SY24002, SY24003, SY24004, SY24005, SY24006) values ('I0', '01', 'IFRS15', '0', '2', '0')
+insert into ScalaAU_1820..SY24Q100(SY24001, SY24002, SY24003, SY24004, SY24005, SY24006) values ('I0', '01', 'IFRS15', '0', '2', '0')
+insert into ScalaNZ_1050..SY24Y100(SY24001, SY24002, SY24003, SY24004, SY24005, SY24006) values ('I0', '01', 'IFRS15', '0', '2', '0')
+insert into ScalaMY_1042..SY24Z100(SY24001, SY24002, SY24003, SY24004, SY24005, SY24006) values ('I0', '01', 'IFRS15', '0', '2', '0')
+insert into ScalaGR_1248..SY24O100(SY24001, SY24002, SY24003, SY24004, SY24005, SY24006) values ('I0', '01', 'IFRS15', '0', '2', '0')
+insert into ScalaIL_1859..SY24S100(SY24001, SY24002, SY24003, SY24004, SY24005, SY24006) values ('I0', '01', 'IFRS15', '0', '2', '0')
+insert into ScalaRO_1759..SY24R100(SY24001, SY24002, SY24003, SY24004, SY24005, SY24006) values ('I0', '01', 'IFRS15', '0', '2', '0')
+
+delete ScalaHU_1025..SY249100 where SY24001 = 'I0' and SY24002 = '01' and SY24003 = 'IFRS15'
+delete ScalaLV_1085..SY24C100 where SY24001 = 'I0' and SY24002 = '01' and SY24003 = 'IFRS15'
+delete ScalaFI_1203..SY24G100 where SY24001 = 'I0' and SY24002 = '01' and SY24003 = 'IFRS15'
+delete ScalaRS_1758..SY24M100 where SY24001 = 'I0' and SY24002 = '01' and SY24003 = 'IFRS15'
+delete ScalaNO_1786..SY24K100 where SY24001 = 'I0' and SY24002 = '01' and SY24003 = 'IFRS15'
+delete ScalaSE_1212..SY24J100 where SY24001 = 'I0' and SY24002 = '01' and SY24003 = 'IFRS15'
+delete ScalaDK_1785..SY24L100 where SY24001 = 'I0' and SY24002 = '01' and SY24003 = 'IFRS15'
+delete ScalaHK_1721..SY24T100 where SY24001 = 'I0' and SY24002 = '01' and SY24003 = 'IFRS15'
+delete ScalaAU_1923..SY24X100 where SY24001 = 'I0' and SY24002 = '01' and SY24003 = 'IFRS15'
+delete ScalaAU_1820..SY24Q100 where SY24001 = 'I0' and SY24002 = '01' and SY24003 = 'IFRS15'
+delete ScalaNZ_1050..SY24Y100 where SY24001 = 'I0' and SY24002 = '01' and SY24003 = 'IFRS15'
+delete ScalaMY_1042..SY24Z100 where SY24001 = 'I0' and SY24002 = '01' and SY24003 = 'IFRS15'
+delete ScalaGR_1248..SY24O100 where SY24001 = 'I0' and SY24002 = '01' and SY24003 = 'IFRS15'
+delete ScalaIL_1859..SY24S100 where SY24001 = 'I0' and SY24002 = '01' and SY24003 = 'IFRS15'
+delete ScalaRO_1759..SY24R100 where SY24001 = 'I0' and SY24002 = '01' and SY24003 = 'IFRS15'
+
+
+select * from MISTY..Companies where CompanyCode = 'R1'

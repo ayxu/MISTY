@@ -1,0 +1,1 @@
+select * from SY249100 where SY24001 = 'I0'
